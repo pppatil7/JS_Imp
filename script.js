@@ -55,3 +55,16 @@ let price1 = 292;
 let discount1 = 10;
 let para = `The price of the product is ${price1} and discount is ${discount1}`;
 console.log(para);
+
+//Spread and Rest Operators
+
+const activeUsers = [...users, "manish", "Raj", ...users];
+console.log(activeUsers);
+
+const newProduct = {
+    ...product,
+    live: false,
+    category: "trending"
+};
+
+console.log(newProduct);
