@@ -49,3 +49,9 @@ console.log(productId);
 console.log(productName);
 console.log(price);
 console.log(discount);
+
+//Template Literals
+let price1 = 292;
+let discount1 = 10;
+let para = `The price of the product is ${price1} and discount is ${discount1}`;
+console.log(para);
