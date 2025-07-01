@@ -26,3 +26,26 @@ funTest(() => {
 const sum = (a, b) => a + b;
 
 console.log(sum(1, 2));
+
+//Destructuring
+
+const users = ["john", "peter", "kane", "david"];
+const [name1, name2, name3, name4] = users;
+console.log(name1);
+console.log(name2);
+console.log(name3);
+console.log(name4);
+
+const product = {
+    productId: 45,
+    productName: "Iphone",
+    price: 82736,
+    discount: 10
+};
+
+//console.log(product);
+const { productId, productName, price, discount } = product;
+console.log(productId);
+console.log(productName);
+console.log(price);
+console.log(discount);
